@@ -1,0 +1,61 @@
+Date			  Date/time in UTC (your system time offset is recorded in config.dat)
+T_Ambient		Ambient outside temperature in C
+
+T_Trunk1		Temperature of incoming air before heat exchange loop in C
+T_Trunk4		Temperature of exhaust air after heat exchange loop in C
+
+T_exhaust		[may be utilized by an older system]
+
+T_tank1_bottom		Temperature of the water at the top of solar water heater tank C
+T_tank1_top		Temperature of the water at the bottom of Solar water heater tank top in C
+
+T_zone1			Temperature reported by thermostat in Zone 1 inside the house in C
+T_zone2			Temperature reported by thermostat in Zone 2 inside the house in C
+T_pool1			Temperature reported by pool sensor in C
+
+V_trunk			[not yet identified]
+Pyranometer		[not used]
+
+MD_zone1		Air damper to zone 1 (0 = closed, 100 = open) When this is open, outside air is being pumped into the house.
+MD_zone2		Air damper to zone 2 (0 = closed, 100 = open) When this is open, outside air is being pumped into the house.
+MD_exhaust		Air damper to outside (0 = closed, 100 = open)
+
+Blower			Heat Exchanger blower fan power
+
+P_Tank1			Solar water heater circulating pump speed
+P_pool1			Solar pool heater circulating pump speed
+
+MD_freshair		[may be utilized by an older system]
+
+E_air_array		Total heat/radiative cooling energy passing through heat exchanger since last 15-minute snapshot (most of these will be wasted) in kWh
+E_air_space		Total heat energy directed to heating zone 1 since the last 15-minute snapshot in kWh
+E_air_space2		Total heat energy directed to heating zone 2 since the last 15-minute snapshot in kWh
+E_night_flush		Total radiative cooling energy directed to cooling zone 1 since the last 15-minute snapshot in kWh
+E_night_flush2		Total radiative cooling energy directed to cooling zone 2 since the last 15-minute snapshot in kWh
+E_air_dhw		Total heat energy directed to hot water generation since last 15-minute snapshot (sum of all = hot water generated during the day) in kwH
+
+E_pv_array		Total energy generated since last 15-minute snapshot (sum of all = generation of the day)
+E_home			[not yet identified]
+
+Vent			[not yet identified]
+
+Pv_Volts		Voltage reported by inverter
+Pv_amps			Amperage reported by inverted
+PV_status		-1 inverter off ~ 4 inverter in full generation mode
+
+Z_resets		[not yet identified]
+Alerts			[not yet identified]
+
+T_inverter		Temperature reported by solar inverter, in C
+E_Interver		Cumulative Electricity Generated since turning on in kWh
+
+Th1_hvac		[not yet identified]
+Th1_mode		[not yet identified]
+
+Th1_setpoint		Thermostat 1 temperature setting in C
+Th2_setpoint		Thermostat 1 temperature setting in C
+
+E_pv_life		Lifetime Electricity Generation from Panel in kWh
+E_dhw_life		Lifetime Hot Water Generated from Heat Exchanger in kWh
+E_space_life		Lifetime space heating Generated from Heat Exchanger in kWh
+E_night_life		Lifetime radiative cooling Generated from Heat Exchanger in kWh
